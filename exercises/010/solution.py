@@ -9,4 +9,3 @@ phantom_menace = """Turmoil has engulfed the Galactic Republic. The\
 phantom_menace.split(" ")
 len(phantom_menace.split(" "))
 print(len(phantom_menace.split(" ")))
-
