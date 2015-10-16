@@ -1,2 +1,2 @@
-#!/usr/bin/python3
-print 42
+A=42
+print(A)
