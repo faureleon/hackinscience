@@ -2,4 +2,4 @@ import math
 
 
 def sqrt(num):
-    print(math.sqrt(num))
+    return(math.sqrt(num))
