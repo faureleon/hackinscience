@@ -10,7 +10,7 @@ def sort_a_list(l):
                 OK = False
     return(l)
 def sort_by_mark(my_class):
-    sorted(my_class, reverse = True)
+    sorted(my_class, reverse=True)
     return(my_class)
 from operator import itemgetter
 def sort_by_name(my_class):
