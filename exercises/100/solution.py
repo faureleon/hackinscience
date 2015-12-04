@@ -5,7 +5,9 @@ station = {
     'name': 'CHAMPEAUX (BAGNOLET)',
     'longitude': 2.416170724425901
 }
+H = list(station.keys())
 L = list(station.values())
+T = len(H)
 S = len(L)
 for i in range(S):
-    print(L[i])
+    print(H[i], L[i])
