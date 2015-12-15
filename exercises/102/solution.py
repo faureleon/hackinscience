@@ -13,4 +13,3 @@ def check_my_city(city_name):
     else:
         D = "Sorry! No station for your city has been found!"
     return(D)
-
