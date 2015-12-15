@@ -45,8 +45,8 @@ def check_my_city(city_name):
             S = S + 1
             l.append(velib[i]['zip'])
     if S > 0:
-        D['station_nb:'] = int(S)
-        D['zip_code:'] = l
+        D['station_nb'] = int(S)
+        D['zip_code'] = l
         D['city'] = city_name
     else:
         D = "Sorry! No station for your city has been found!"
